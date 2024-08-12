@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="operaciones_enteros" version="0.1.3">
+ <settings>
+  <title>Operaciones con números enteros</title>
+  <revision description="created" date="7/28/24" />
+  <author name="Anastacio Paye Cahuaya" rol="DAIP" organization="I.E. Santiago Antúnez de Mayolo" />
+  <organization name="I.E. Santiago Antúnez de Mayolo" pc="El Progreso" city="Carabayllo" country="Perú" state="Lima" />
+  <language>es</language>
+  <description>
+   <p>Actividades Interractivas de operaciones co números enteros</p>
+  </description>
+  <descriptors area-codes="mat" level-codes="SEC" />
+  <eventSounds>
+   <sound id="start" enabled="false" />
+   <sound id="click" enabled="false" />
+   <sound id="actionError" enabled="false" />
+   <sound id="actionOk" enabled="false" />
+   <sound id="finishedError" enabled="false" />
+  </eventSounds>
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es">
+    <p>Actividades Interractivas de operaciones co números enteros</p>
+   </description>
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="start">
+   <jump action="STOP" id="forward" />
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="1 Termómetro loco">
+   <jump action="RETURN" id="forward" />
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="2 Captura-Aliens">
+   <jump action="RETURN" id="forward" />
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="3 Ascensor">
+   <jump action="RETURN" id="forward" />
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="4 Profundidad del mar">
+   <jump action="RETURN" id="forward" />
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="5 Un problema de signos">
+   <jump action="RETURN" id="forward" />
+   <jump action="RETURN" id="back" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@text.WrittenAnswer" name="1 Termómetro loco" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style margin="0">
+      <font family="Arial" size="24" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Lee con atención el problema. resuélvelo y contesta a las situaciones. Es obligatorio poner el signo en la respuesta (+ ó -)</p>
+    </cell>
+    <cell type="final">
+     <style margin="0">
+      <font family="Arial" size="24" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>¡Muy bien lo lograste!</p>
+    </cell>
+    <cell type="finalError">
+     <style margin="0">
+      <font family="Arial" size="24" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Fallaste, ¡vuelve a intentarlo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="5" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="Diapositiva2.PNG" id="primary">
+    <style margin="0">
+     <font family="Arial" size="24" />
+     <color background="0xFFFFFF" inactive="0x000000" alternative="0x000000" />
+    </style>
+    <shaper class="@Holes" cols="1" rows="1">
+     <shape comment="0">rectangle:0.164062,0.819444,0.320312,0.069444</shape>
+     <shape comment="1">rectangle:0.625,0.819444,0.319531,0.069444</shape>
+    </shaper>
+    <ids>0 1</ids>
+   </cells>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="answers">
+    <style margin="0" borderStroke="0.7" markerStroke="5.0">
+     <font family="Arial" size="24" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell>
+     <p>+3-2-2+5</p>
+    </cell>
+    <cell>
+     <p>+4</p>
+    </cell>
+    <cell />
+   </cells>
+   <cells rows="1" cols="1" border="true" image="Diapositiva2.PNG" id="solvedPrimary">
+    <style />
+    <shaper class="@Holes" cols="1" rows="1">
+     <shape comment="0">rectangle:0.164062,0.819444,0.320312,0.069444</shape>
+     <shape comment="1">rectangle:0.625,0.819444,0.319531,0.069444</shape>
+    </shaper>
+    <cell txtAlign="left,bottom">
+     <p>+3-2-2+5</p>
+    </cell>
+    <cell txtAlign="left,bottom">
+     <p>+4</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="2 Captura-Aliens" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style margin="0">
+      <font family="Arial" size="24" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Lee con atención el problema. resuélvelo y contesta a las situaciones. Es obligatorio poner el signo en la respuesta (+ ó -)</p>
+    </cell>
+    <cell type="final">
+     <style margin="0">
+      <font family="Arial" size="24" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>¡Muy bien lo lograste!</p>
+    </cell>
+    <cell type="finalError">
+     <style margin="0">
+      <font family="Arial" size="24" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Fallaste, ¡vuelve a intentarlo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="5" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="Diapositiva3.PNG" id="primary">
+    <style margin="0">
+     <font family="Arial" size="24" />
+     <color background="0xFFFFFF" inactive="0x000000" alternative="0x000000" />
+    </style>
+    <shaper class="@Holes" cols="1" rows="1">
+     <shape comment="0">rectangle:0.164062,0.819444,0.320312,0.069444</shape>
+     <shape comment="1">rectangle:0.625,0.819444,0.319531,0.069444</shape>
+    </shaper>
+    <ids>0 1</ids>
+   </cells>
+   <cells rows="1" cols="3" cellWidth="400.0" cellHeight="60.0" border="true" id="answers">
+    <style margin="0" borderStroke="0.7" markerStroke="5.0">
+     <font family="Arial" size="24" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell>
+     <p>(+30-12+7)-(-15+20+12)</p>
+    </cell>
+    <cell>
+     <p>+8</p>
+    </cell>
+    <cell />
+   </cells>
+   <cells rows="1" cols="1" border="true" image="Diapositiva3.PNG" id="solvedPrimary">
+    <style />
+    <shaper class="@Holes" cols="1" rows="1">
+     <shape comment="0">rectangle:0.164062,0.819444,0.320312,0.069444</shape>
+     <shape comment="1">rectangle:0.625,0.819444,0.319531,0.069444</shape>
+    </shaper>
+    <cell txtAlign="left,bottom">
+     <p>(+30-12+7)-(-15+20+12)</p>
+    </cell>
+    <cell txtAlign="left,bottom">
+     <p>+8</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="3 Ascensor" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style margin="0">
+      <font family="Arial" size="24" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Lee con atención el problema. resuélvelo y contesta a las situaciones. Es obligatorio poner el signo en la respuesta (+ ó -)</p>
+    </cell>
+    <cell type="final">
+     <style margin="0">
+      <font family="Arial" size="24" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>¡Muy bien lo lograste!</p>
+    </cell>
+    <cell type="finalError">
+     <style margin="0">
+      <font family="Arial" size="24" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Fallaste, ¡vuelve a intentarlo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="5" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="Diapositiva4.PNG" id="primary">
+    <style margin="0">
+     <font family="Arial" size="24" />
+     <color background="0xFFFFFF" inactive="0x000000" alternative="0x000000" />
+    </style>
+    <shaper class="@Holes" cols="1" rows="1">
+     <shape comment="0">rectangle:0.164062,0.819444,0.320312,0.069444</shape>
+     <shape comment="1">rectangle:0.625,0.819444,0.319531,0.069444</shape>
+    </shaper>
+    <ids>0 1</ids>
+   </cells>
+   <cells rows="1" cols="3" cellWidth="400.0" cellHeight="60.0" border="true" id="answers">
+    <style margin="0" borderStroke="0.7" markerStroke="5.0">
+     <font family="Arial" size="24" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell>
+     <p>+5-3+5-8+10+5-6</p>
+    </cell>
+    <cell>
+     <p>+8</p>
+    </cell>
+    <cell />
+   </cells>
+   <cells rows="1" cols="1" border="true" image="Diapositiva4.PNG" id="solvedPrimary">
+    <style />
+    <shaper class="@Holes" cols="1" rows="1">
+     <shape comment="0">rectangle:0.164062,0.819444,0.320312,0.069444</shape>
+     <shape comment="1">rectangle:0.625,0.819444,0.319531,0.069444</shape>
+    </shaper>
+    <cell txtAlign="left,bottom">
+     <p>+5-3+5-8+10+5-6</p>
+    </cell>
+    <cell txtAlign="left,bottom">
+     <p>+8</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="4 Profundidad del mar" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style margin="0">
+      <font family="Arial" size="24" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Lee con atención el problema. resuélvelo y contesta a las situaciones. Es obligatorio poner el signo en la respuesta (+ ó -)</p>
+    </cell>
+    <cell type="final">
+     <style margin="0">
+      <font family="Arial" size="24" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>¡Muy bien lo lograste!</p>
+    </cell>
+    <cell type="finalError">
+     <style margin="0">
+      <font family="Arial" size="24" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Fallaste, ¡vuelve a intentarlo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="5" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="Diapositiva5.PNG" id="primary">
+    <style margin="0">
+     <font family="Arial" size="24" />
+     <color background="0xFFFFFF" inactive="0x000000" alternative="0x000000" />
+    </style>
+    <shaper class="@Holes" cols="1" rows="1">
+     <shape comment="0">rectangle:0.164062,0.819444,0.320312,0.069444</shape>
+     <shape comment="1">rectangle:0.625,0.819444,0.319531,0.069444</shape>
+    </shaper>
+    <ids>0 1</ids>
+   </cells>
+   <cells rows="1" cols="3" cellWidth="400.0" cellHeight="60.0" border="true" id="answers">
+    <style margin="0" borderStroke="0.7" markerStroke="5.0">
+     <font family="Arial" size="24" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell>
+     <p>-20-10-5</p>
+    </cell>
+    <cell>
+     <p>-35</p>
+    </cell>
+    <cell />
+   </cells>
+   <cells rows="1" cols="1" border="true" image="Diapositiva5.PNG" id="solvedPrimary">
+    <style />
+    <shaper class="@Holes" cols="1" rows="1">
+     <shape comment="0">rectangle:0.164062,0.819444,0.320312,0.069444</shape>
+     <shape comment="1">rectangle:0.625,0.819444,0.319531,0.069444</shape>
+    </shaper>
+    <cell txtAlign="left,bottom">
+     <p>-20-10-5</p>
+    </cell>
+    <cell txtAlign="left,bottom">
+     <p>-35</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="5 Un problema de signos" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style margin="0">
+      <font family="Arial" size="24" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Lee con atención el problema. resuélvelo y contesta a las situaciones. Es obligatorio poner el signo en la respuesta (+ ó -)</p>
+    </cell>
+    <cell type="final">
+     <style margin="0">
+      <font family="Arial" size="24" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>¡Muy bien lo lograste!</p>
+    </cell>
+    <cell type="finalError">
+     <style margin="0">
+      <font family="Arial" size="24" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Fallaste, ¡vuelve a intentarlo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="6" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="Diapositiva6.PNG" id="primary">
+    <style margin="0">
+     <font family="Arial" size="24" />
+     <color background="0xFFFFFF" inactive="0x000000" alternative="0x000000" />
+    </style>
+    <shaper class="@Holes" cols="1" rows="1">
+     <shape comment="0">rectangle:0.203125,0.818056,0.125,0.084722</shape>
+     <shape comment="1">rectangle:0.507812,0.819444,0.132812,0.083333</shape>
+     <shape comment="2">rectangle:0.820312,0.819444,0.125,0.083333</shape>
+    </shaper>
+    <ids>0 1 2</ids>
+   </cells>
+   <cells rows="1" cols="3" cellWidth="400.0" cellHeight="60.0" border="true" id="answers">
+    <style margin="0" borderStroke="0.7" markerStroke="5.0">
+     <font family="Arial" size="24" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell>
+     <p>+3</p>
+    </cell>
+    <cell>
+     <p>-3</p>
+    </cell>
+    <cell>
+     <p>-3</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="1" border="true" image="Diapositiva6.PNG" id="solvedPrimary">
+    <style />
+    <shaper class="@Holes" cols="1" rows="1">
+     <shape comment="0">rectangle:0.203125,0.818056,0.125,0.084722</shape>
+     <shape comment="1">rectangle:0.507812,0.819444,0.132812,0.083333</shape>
+     <shape comment="2">rectangle:0.820312,0.819444,0.125,0.083333</shape>
+    </shaper>
+    <cell txtAlign="left,middle">
+     <p>+3</p>
+    </cell>
+    <cell txtAlign="left,middle">
+     <p>-3</p>
+    </cell>
+    <cell txtAlign="left,middle">
+     <p>-3</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="start" code="">
+   <description />
+   <messages>
+    <cell image="clic.png" type="initial">
+     <style>
+      <color foreground="0xFFFFFF" background="0x4252BD" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+    <eventSounds>
+     <sound id="start" enabled="false" />
+     <sound id="click" enabled="false" />
+     <sound id="actionError" enabled="false" />
+     <sound id="actionOk" enabled="false" />
+     <sound id="finishedError" enabled="false" />
+    </eventSounds>
+   </settings>
+   <cells rows="1" cols="1" border="false" image="Diapositiva1.PNG">
+    <style margin="0">
+     <font family="Arial" size="24" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Holes" cols="1" rows="1">
+     <shape comment="0">rectangle:0.101562,0.347222,0.234375,0.083333</shape>
+     <shape comment="1">rectangle:0.101562,0.458333,0.210938,0.083333</shape>
+     <shape comment="2">rectangle:0.101562,0.565278,0.15625,0.079167</shape>
+     <shape comment="3">rectangle:0.101562,0.666667,0.273438,0.083333</shape>
+     <shape comment="4">rectangle:0.101562,0.777778,0.304688,0.083333</shape>
+    </shaper>
+    <cell>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="1 Termómetro loco" />
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="2 Captura-Aliens" />
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="3 Ascensor" />
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="4 Profundidad del mar" />
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="5 Un problema de signos" />
+    </cell>
+   </cells>
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="clic.png" file="clic.png" />
+  <media name="Diapositiva1.PNG" file="diapositiva1.png" />
+  <media name="Diapositiva2.PNG" file="diapositiva2.png" />
+  <media name="Diapositiva3.PNG" file="diapositiva3.png" />
+  <media name="Diapositiva4.PNG" file="diapositiva4.png" />
+  <media name="Diapositiva5.PNG" file="diapositiva5.png" />
+  <media name="Diapositiva6.PNG" file="diapositiva6.png" />
+ </mediaBag>
+</JClicProject>
+

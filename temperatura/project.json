@@ -1,0 +1,58 @@
+{
+  "title": "Operaciones con números enteros",
+  "author": "Anastacio Paye Cahuaya (DAIP)",
+  "school": "I.E. Santiago Antúnez de Mayolo (Carabayllo)",
+  "date": "28/07/24",
+  "langCodes": [
+    "es"
+  ],
+  "languages": {
+    "es": "español"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "areas": {
+    "es": "Matemáticas"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "levels": {
+    "es": "Secundaria (12-16)"
+  },
+  "description": {
+    "es": "Actividades Interractivas de operaciones co números enteros"
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "mainFile": "operaciones_enteros.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 6,
+  "mediaFiles": 12,
+  "totalSize": 559366,
+  "files": [
+    "clic.png",
+    "diapositiva1.png",
+    "diapositiva2.png",
+    "diapositiva3.png",
+    "diapositiva4.png",
+    "diapositiva5.png",
+    "diapositiva6.png",
+    "favicon.ico",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "operaciones_enteros.jclic",
+    "operaciones_enteros.jclic.js",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json"
+  ]
+}
